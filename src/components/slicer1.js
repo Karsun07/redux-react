@@ -9,3 +9,4 @@ const reactSlicer=createSlice({
         Reset:(state)=>{state.count=0}
     }
 })
+export default reactSlicer.reducer;
