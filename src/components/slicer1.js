@@ -9,4 +9,5 @@ const reactSlicer=createSlice({
         Reset:(state)=>{state.count=0}
     }
 })
+export const {Increment,Decrement,Reset}=reactSlicer.actions;
 export default reactSlicer.reducer;
