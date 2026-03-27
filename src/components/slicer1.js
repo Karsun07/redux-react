@@ -4,7 +4,7 @@ const reactSlicer=createSlice({
     name:"slicer1",
     initialState:{count:0},
     reducers:{
-        // immer =>creates a draft in which we change things and then it interacts with original and replace it and we get new refernce of obj
+        // immer =>creates a draft in which we change things and then it interacts with original and replace it and we get new refernce(obj).
         Increment:(state)=>{state.count=state.count+1},
         Decrement:(state)=>{state.count=state.count-1},
         Reset:(state)=>{state.count=0}

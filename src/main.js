@@ -4,6 +4,7 @@ import Counting from "./components/counting";
 import { Provider } from "react-redux";
 import stores from "./components/stores"
 import { reactSlicer } from "./components/slicer1";
+import CustomCounter from "./customcounter";
 function App(){
     console.log(reactSlicer);
    
@@ -11,6 +12,9 @@ function App(){
         <>
         <Provider store={stores}>
         <Counting/>
+        <br></br>
+        <br></br>
+        <CustomCounter/>
         </Provider>
         </>
     )
