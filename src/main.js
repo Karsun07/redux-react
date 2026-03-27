@@ -4,7 +4,7 @@ import Counting from "./components/counting";
 import { Provider } from "react-redux";
 import stores from "./components/stores"
 import { reactSlicer } from "./components/slicer1";
-import CustomCounter from "./customcounter";
+import CustomCounter from "./components/customcounter";
 function App(){
     console.log(reactSlicer);
    
