@@ -1,5 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
-import CustomIncreaser from "./customcounter";
+
 const reactSlicer=createSlice({
     name:"slicer1",
     initialState:{count:0},
